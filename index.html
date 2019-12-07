@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html><style type="text/css">
+	.abt{
+		color: blue;
+		animation-name: example;
+		animation-duration: 4s;
+		animation-iteration-count: infinite;
+	}
+	@keyframes example{
+		0% {color: red;}
+		25%{color: green;}
+		50%{color:blue;}
+		100%{font-size:40px;}
+	}
+	.navbar{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+
+	}
+	.navbar li{
+		float: left;
+
+	}
+	.navbar li a{
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 20px;
+	}
+	.navbar li a:hover:not(.active){
+		background-color: #111;
+
+	}
+	.active:hover{
+		background-color: #ff66a3;
+	}
+
+</style>
+
+<head>
+	<title>My first website</title>
+</head>
+<body bgcolor="yellow">
+    I am awesome
+    <h1 align="center">
+    	<ul class="navbar" id="nav1">
+    		<li><a class="active" href="#">Home</a>
+    		</li>
+    		<li><a href="#">Achievements</a></li>
+    		<li><a href="#">Hobbies</a></li>
+    		<li><a href="#">Contacts</a></li>
+    		<li><a href="contact.html">contact</a></li>
+    	</ul>
+    	
+    	Extremely awesome
+    </h1>
+    <h2>
+    	ok 
+    </h2>
+    <h3>
+    	level undefined
+    </h3>
+    <h4>
+    	no talk anymmore
+    </h4>
+    <img src="iit-r.jpg" height="300" width="400">
+    <h2 align = "center">
+    	About me
+    </h2>
+   <div class="abt"> <p align = "center">
+    	i am of first year
+    </p>
+</div>
+    <h3 align = "center">
+    	My skills
+    </h3>
+    <ol>
+    	<li>
+    		Html
+    	</li>
+    	<li>
+    		css
+    	</li>
+    	<li>
+    		Javascript
+    	</li>
+    </ol>
+</body>
+</html>
